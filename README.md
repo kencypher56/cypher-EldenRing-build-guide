@@ -2,31 +2,21 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cypher · Elden Ring Build Guide</title>
-    <!-- No external CSS needed – GitHub sanitizes; we use only safe inline styles + markdown compatibility -->
+    <!-- GitHub‑safe styling – inline only, no external dependencies -->
 </head>
 <body>
 
-<!-- The entire document is designed as a GitHub‑compatible README,
-     combining Markdown and safe HTML. It retains the Elden Ring aesthetic
-     through ASCII borders, thematic emojis, and golden accents. -->
-
 <div align="center">
 
-<pre style="font-family: monospace; color: #d4af37; background-color: #0a0a0a; padding: 1rem; border-radius: 12px; border: 1px solid #c9a84c;">
-  ╔══════════════════════════════════════════════════════════════════════╗
-  ║                                                                      ║
-  ║    ███████╗██╗      ██████╗ ███████╗███╗  ██╗    ██████╗ ██╗███╗   ║
-  ║    ██╔════╝██║     ██╔══██╗██╔════╝████╗ ██║    ██╔══██╗██║████╗  ║
-  ║    █████╗  ██║     ██║  ██║█████╗  ██╔██╗██║    ██████╔╝██║██╔██╗ ║
-  ║    ██╔══╝  ██║     ██║  ██║██╔══╝  ██║╚████║    ██╔══██╗██║██║╚██╗║
-  ║    ███████╗███████╗██████╔╝███████╗██║ ╚███║    ██║  ██║██║██║ ╚██║
-  ║    ╚══════╝╚══════╝╚═════╝ ╚══════╝╚═╝  ╚══╝    ╚═╝  ╚═╝╚═╝╚═╝  ╚═║
-  ║                                                                      ║
-  ║           ⚜  B U I L D   G U I D E   G E N E R A T O R  ⚜          ║
-  ║                                                                      ║
-  ╚══════════════════════════════════════════════════════════════════════╝
+<!-- ========== CORRECTED ASCII BANNER: ELDEN RING ========== -->
+<pre style="font-family: monospace; color: #d4af37; background-color: #0a0a0a; padding: 1rem; border-radius: 12px; border: 1px solid #c9a84c; line-height: 1.2;">
+   ███████╗██╗      ██████╗ ███████╗███╗   ██╗    ██████╗ ██╗███╗   ██╗ ██████╗
+   ██╔════╝██║     ██╔══██╗██╔════╝████╗  ██║    ██╔══██╗██║████╗  ██║██╔════╝
+   █████╗  ██║     ██║  ██║█████╗  ██╔██╗ ██║    ██████╔╝██║██╔██╗ ██║██║  ███╗
+   ██╔══╝  ██║     ██║  ██║██╔══╝  ██║╚██╗██║    ██╔══██╗██║██║╚██╗██║██║   ██║
+   ███████╗███████╗██████╔╝███████╗██║ ╚████║    ██║  ██║██║██║ ╚████║╚██████╔╝
+   ╚══════╝╚══════╝╚═════╝ ╚══════╝╚═╝  ╚═══╝    ╚═╝  ╚═╝╚═╝╚═╝  ╚═══╝ ╚═════╝
 </pre>
 
 <p>
@@ -314,10 +304,9 @@ pip install -r requirements.txt
   <p><em>This is a fan project. Not affiliated with FromSoftware.</em></p>
 </div>
 
----
-
+<!-- ========== CENTERED FOOTER (fixed) ========== -->
 <div align="center">
-  <pre style="font-family: monospace; color: #c9a84c;">
+  <pre style="font-family: monospace; color: #c9a84c; margin: 1.5rem auto;">
   ── ⚜ ─────────────────────────────────────────────── ⚜ ──
 
      May your runes guide thee, and may the grace of gold
